@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+main>div> div > div.count{
+  overflow: hidden;
+  position: relative;
+}
+ div > div.count::before {
+  content: "\26EF";
+  width: 17.375rem;
+  height: 17.375rem;
+  display: block;
+  left: -100%;
+  position: absolute;
+  background-color: #00fff8;
+  border-radius: 10px;
+  opacity: 0.5;
+  font-size: 100px;
+  color:white;
+  line-height: 17.375rem;
+  cursor: pointer;
+  text-align: center;
+  transition: all 400ms linear;
+}
+div > div.count:hover::before {
+  left:0;
+}
