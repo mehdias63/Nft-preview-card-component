@@ -7,13 +7,15 @@ export default function Nftcard() {
       style={{ backgroundColor: "var(--very-dark-blue-card-bg, #15263F)" }}
     >
       <div className=" md:ml-3">
-        <div className="count cursor-pointer w-[18rem] relative"> 
-        <img src="../images/Rectangle.png" />
-        <div className="absolute bottom-0 left-0 right-0 top-0 flex items-center justify-center rounded-lg  bg-[#00fff8] bg-opacity-50 opacity-0 transition-opacity duration-300 hover:opacity-100">
-          <img src="../images/icon-view.svg" />
+        <div className="count cursor-pointer w-[18rem] relative">
+          <img src="../images/Rectangle.png" />
+          <div className="absolute bottom-0 left-0 right-0 top-0 flex items-center justify-center rounded-lg  bg-[#00fff8] bg-opacity-50 opacity-0 transition-opacity duration-300 hover:opacity-100">
+            <img src="../images/icon-view.svg" />
+          </div>
         </div>
-        </div>
-        <h1 className="font-bold mt-4 text-[1.375rem] hover:text-[#00FFF8] cursor-pointer">Equilibrium #3429</h1>
+        <h1 className="font-bold mt-4 text-[1.375rem] hover:text-[#00FFF8] cursor-pointer">
+          Equilibrium #3429
+        </h1>
         <p className="text-[#8BACD9] text-lg mt-2 mb-4">
           Our Equilibrium collection promotes balance and calm.
         </p>
@@ -32,7 +34,10 @@ export default function Nftcard() {
         <div className="flex mt-4">
           <img src="../images/Oval.svg" />
           <p className="ml-4 text-[#8BACD9] text-[0.9375rem]">
-            Creation of<span className="ml-2 text-white hover:text-[#00FFF8] cursor-pointer">Jules Wyvern</span>
+            Creation of
+            <span className="ml-2 text-white hover:text-[#00FFF8] cursor-pointer">
+              Jules Wyvern
+            </span>
           </p>
         </div>
       </div>
