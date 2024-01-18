@@ -13,10 +13,10 @@ export default function Nftcard() {
             <img src="../images/icon-view.svg" />
           </div>
         </div>
-        <h1 className="font-bold mt-4 text-[1.375rem] hover:text-[#00FFF8] cursor-pointer">
+        <h1 className="font-bold mt-6 text-[1.375rem] hover:text-[#00FFF8] cursor-pointer">
           Equilibrium #3429
         </h1>
-        <p className="text-[#8BACD9] text-lg mt-2 mb-4">
+        <p className="text-[#8BACD9] text-lg mt-6 mb-8">
           Our Equilibrium collection promotes balance and calm.
         </p>
         <div className="flex">
@@ -31,7 +31,7 @@ export default function Nftcard() {
           className="w-[17.375rem] h-[0.0625rem] rounded-2xl mt-4"
           style={{ backgroundColor: "#8BACD9" }}
         ></div>
-        <div className="flex mt-4">
+        <div className="flex mt-6">
           <img src="../images/Oval.svg" />
           <p className="ml-4 text-[#8BACD9] text-[0.9375rem]">
             Creation of
