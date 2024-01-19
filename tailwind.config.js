@@ -8,7 +8,14 @@ export default {
     fontFamily: {
       outfid: ["Outfid"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        'dark-blue': '#15263F',
+        'light-blue': '#8BACD9',
+        'bright-cyan': '#00FFF8',
+        // ... other custom colors
+      }
+    },
   },
   plugins: [],
 }
