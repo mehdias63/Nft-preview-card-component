@@ -1,6 +1,6 @@
-# Frontend Mentor - QR code component solution
+# Frontend Mentor - Nft-preview-card-component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Nft-preview-card-component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -23,8 +23,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/mehdias63/qr-code)
-- Live Site URL: [Add live site URL here](https://qr-code-one-dun.vercel.app)
+- Solution URL: [Add solution URL here](https://github.com/mehdias63/Nft-preview-card-component)
+- Live Site URL: [Add live site URL here](https://nft-preview-card-component-bice-three.vercel.app)
 
 ## My process
 
@@ -32,4 +32,3 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - [React](https://reactjs.org/) - JS library
 - [Tailwind](https://tailwindcss.com/) - For styles
-

@@ -8,9 +8,9 @@ export default function Nftcard() {
     >
       <div className=" md:ml-3">
         <div className="count cursor-pointer w-[18rem] relative">
-          <img src="../images/Rectangle.png" />
+          <img src="../images/Rectangle.png" alt="Rectangle" />
           <div className="absolute bottom-0 left-0 right-0 top-0 flex items-center justify-center rounded-lg  bg-bright-cyan bg-opacity-50 opacity-0 transition-opacity duration-300 hover:opacity-100">
-            <img src="../images/icon-view.svg" />
+            <img src="../images/icon-view.svg" alt="icon" />
           </div>
         </div>
         <h1 className="font-bold mt-6 text-[1.375rem] hover:text-bright-cyan cursor-pointer">
@@ -19,20 +19,28 @@ export default function Nftcard() {
         <p className="text-light-blue text-lg mt-6 mb-8">
           Our Equilibrium collection promotes balance and calm.
         </p>
-        <div className="flex">
-          <img className="mr-2" src="../images/icon-ethereum.svg" />
+        <div className="flex justify-center items-center">
+          <img
+            className="mr-2"
+            src="../images/icon-ethereum.svg"
+            alt="ethereum"
+          />
           <span className="text-bright-cyan text-[0.9375rem] font-semibold">
             0.041 ETH
           </span>
-          <img className="ml-[5rem] mr-2" src="../images/icon-clock.svg" />
+          <img
+            className="ml-[5rem] mr-2"
+            src="../images/icon-clock.svg"
+            alt="clock"
+          />
           <span className="text-light-blue text-[0.9375rem]">3 days left</span>
         </div>
         <div
           className="w-[17.375rem] h-[0.0625rem] rounded-2xl mt-4"
           style={{ backgroundColor: "light-blue" }}
         ></div>
-        <div className="flex mt-6">
-          <img src="../images/Oval.svg" />
+        <div className="flex mt-6 justify-center items-center">
+          <img src="../images/Oval.svg" alt="avatar" />
           <p className="ml-4 text-light-blue text-[0.9375rem]">
             Creation of
             <span className="ml-2 text-white hover:text-bright-cyan cursor-pointer">
